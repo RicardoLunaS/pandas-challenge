@@ -1,6 +1,4 @@
-# pandas-challenge
-
-## School Performance Analysis
+# School Performance Analysis
 
 ## Introduction
 
@@ -19,6 +17,7 @@ Furthermore, additional metrics were created to understand better the performace
   - % of Students Passing Reading
   - % of Students Overal Passing
   - Budget Per Capita
+
 
 ## Analysis
 
@@ -52,12 +51,11 @@ The School level analysis indicates that certain schools achieve higher scores f
 |    Wilson High School |     Charter |           2283 |       $1,319,574.00 |            $578.00 |          83.274201 |             83.989488 |      93.867718 |         96.539641 | 90.582567         |
 |    Wright High School |     Charter |           1800 |       $1,049,400.00 |            $583.00 |          83.682222 |             83.955000 |      93.333333 |         96.611111 | 90.333333         |
 
-
-#### School Top & Bottom Analysis
+### School Top & Bottom Analysis
 
 Taking the top 5 schools and the bottom 5 schools, there is a clear identification between them. While the Per Student Budget is not that different between the two groups and even lower in the higher % of overall passing schools, the School Type and the Quantity of Students look like could be the main contributors to the % of overall passing metric.
 
-##### Top Schools Overall % of Passing Students 
+Top Schools Overall % of Passing Students 
 
 |     School Name     | School Type | Total Students | Total School Budget | Per Student Budget | Average Math Score | Average Reading Score | % Passing Math | % Passing Reading | % Overall Passing |
 |:-------------------:|------------:|---------------:|--------------------:|-------------------:|-------------------:|----------------------:|---------------:|------------------:|------------------:|
@@ -67,16 +65,16 @@ Taking the top 5 schools and the bottom 5 schools, there is a clear identificati
 |  Wilson High School | Charter     | 2283           | $1,319,574.00       | $578.00            | 83.274201          | 83.989488             | 93.867718      | 96.539641         | 90.582567         |
 |   Pena High School  | Charter     | 962            | $585,858.00         | $609.00            | 83.839917          | 84.044699             | 94.594595      | 95.945946         | 90.540541         |
 
-##### Bottom Schools Overall % of Passing Students 
+Bottom Schools Overall % of Passing Students 
 
-|                       | School Type | Total Students | Total School Budget | Per Student Budget | Average Math Score | Average Reading Score | % Passing Math | % Passing Reading | % Overall Passing |
+|           School Name | School Type | Total Students | Total School Budget | Per Student Budget | Average Math Score | Average Reading Score | % Passing Math | % Passing Reading | % Overall Passing |
 |----------------------:|------------:|---------------:|--------------------:|-------------------:|-------------------:|----------------------:|---------------:|------------------:|------------------:|
-|      school_name      |             |                |                     |                    |                    |                       |                |                   |                   |
 | Rodriguez High School | District    | 3999           | $2,547,363.00       | $637.00            | 76.842711          | 80.744686             | 66.366592      | 80.220055         | 52.988247         |
 |  Figueroa High School | District    | 2949           | $1,884,411.00       | $639.00            | 76.711767          | 81.158020             | 65.988471      | 80.739234         | 53.204476         |
 |   Huang High School   | District    | 2917           | $1,910,635.00       | $655.00            | 76.629414          | 81.182722             | 65.683922      | 81.316421         | 53.513884         |
 | Hernandez High School | District    | 4635           | $3,022,020.00       | $652.00            | 77.289752          | 80.934412             | 66.752967      | 80.862999         | 53.527508         |
 |  Johnson High School  | District    | 4761           | $3,094,650.00       | $650.00            | 77.072464          | 80.966394             | 66.057551      | 81.222432         | 53.539172         |
+
 
 ### Student Grade
 
@@ -154,6 +152,7 @@ School type analysis showed that a Charter School is significantly better in ave
 |:-----------:|-------------------:|----------------------:|---------------:|------------------:|------------------:|
 |   Charter   | 83.473852          | 83.896421             | 93.620830      | 96.586489         | 90.432244         |
 |   District  | 76.956733          | 80.966636             | 66.548453      | 80.799062         | 53.672208         |
+
 
 ## Conclusions:
 
